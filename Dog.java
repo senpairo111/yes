@@ -18,6 +18,12 @@ public class Dog {
 
     public void birthday(){
         this.m_age++;
+        if (this.m_age > 13){
+            this.m_color = String.format("color is now %s with a few whites", this.m_color);
+            if (this.m_age > 18){
+                System.out.println("wow, old dog!");
+            }
+        }
     }
 
 
