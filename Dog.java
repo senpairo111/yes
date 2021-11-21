@@ -1,8 +1,14 @@
 public class Dog {
+<<<<<<< HEAD
     private String m_color;
     private String m_skill;
     private int m_age;
     
+=======
+    String m_color;
+    String m_skill;
+    int m_age;
+>>>>>>> yes
 
     public Dog(int age, String color, String skill){
         this.m_age = age;
